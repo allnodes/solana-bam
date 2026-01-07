@@ -16,9 +16,9 @@
 { # this ensures the entire script is downloaded #
 
 if [ -z "$SOLANA_DOWNLOAD_ROOT" ]; then
-    SOLANA_DOWNLOAD_ROOT="https://github.com/jito-labs/bam-client/releases/download/"
+    SOLANA_DOWNLOAD_ROOT="https://github.com/allnodes/solana-bam/releases/download/"
 fi
-GH_LATEST_RELEASE="https://api.github.com/repos/jito-labs/bam-client/releases/latest"
+GH_LATEST_RELEASE="https://api.github.com/repos/allnodes/solana-bam/releases/latest"
 
 set -e
 
